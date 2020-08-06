@@ -1,0 +1,9 @@
+
+.touxiang{
+	width: 750rpx;
+	height: 250rpx;
+	background-color: #4CD964;
+}
+.image{
+}
+

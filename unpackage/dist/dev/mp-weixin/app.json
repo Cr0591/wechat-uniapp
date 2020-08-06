@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/mine/index",
+    "pages/help/index",
+    "pages/mine/myinfo",
+    "pages/mine/myaddress",
+    "pages/mine/withdraw"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "./static/icon/unindex.png",
+        "selectedIconPath": "./static/icon/index.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/help/index",
+        "iconPath": "./static/icon/unhelp.png",
+        "selectedIconPath": "./static/icon/help.png",
+        "text": "去帮忙"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "iconPath": "./static/icon/unmine.png",
+        "selectedIconPath": "./static/icon/mine.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
